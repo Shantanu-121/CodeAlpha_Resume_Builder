@@ -54,7 +54,6 @@ body {
     border: 5px solid white;
     position: absolute;
     right: 30px;
-    transition: height 250ms, width 250ms;
 }
 
 .heading:hover {
@@ -76,6 +75,15 @@ body {
     border-radius: 0.2cm;
     padding: 30px;
     color: black;
+}
+
+.readyResume {
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 0.1cm;
+    min-width: 130vb;
+    max-width: max-content;
 }
 
 label {
@@ -205,4 +213,28 @@ footer {
     justify-content: flex-start;
     margin-left: 200px;
     margin-bottom: 100px;
+}
+
+@media (max-width: 1200px) {
+    .middlePage>img {
+        height: 400px;
+        width: 300px;
+        border-radius: 0.3cm;
+        margin-left: 50px;
+    }
+
+    .aboutUs {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 50px;
+        margin-bottom: 100px;
+    }
+
+    .readyResume {
+        background-color: white;
+        padding: 30px;
+        margin: 20px;
+        border-radius: 0.1cm;
+        width: max-content;
+    }
 }
