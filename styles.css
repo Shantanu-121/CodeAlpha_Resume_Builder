@@ -235,6 +235,7 @@ footer {
         padding: 30px;
         margin: 20px;
         border-radius: 0.1cm;
-        width: max-content;
+        min-width: fit-content;
+        max-width: max-content;
     }
 }
