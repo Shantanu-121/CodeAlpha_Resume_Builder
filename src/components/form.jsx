@@ -96,22 +96,28 @@ function Form() {
                 <input type="text" style={{ gridArea: "13/2/14/3" }} name="qualities" onChange={handleChange} value={input.qualities} placeholder="Other Qualities" />
                 <Button variant="contained" type="submit" onClick={buildResume} style={{ gridArea: "14/2/15/3", marginTop: "40px" }}>Submit</Button>
             </form>
-            {isSubmitted === true ? <div><div ref={pdfRef} className="readyResume"><div className="resumeHeading"><img alt="image" src={URL.createObjectURL(input.selectedImage)} id="userPhoto" /><span style={{ color: "royalblue", fontSize: "x-large", fontFamily: "Arial, Helvetica, sans-serif", fontWeight: "bolder" }}>{input.name} </span><span>{input.email} | (+91){input.number}</span></div>
+            {isSubmitted === true ? <div>
+            <div ref={pdfRef} className="readyResume">
+            <div className="resumeHeading">
+            <img alt="image" src={URL.createObjectURL(input.selectedImage)} id="userPhoto" /><span style={{ color: "royalblue", fontSize: "x-large", fontFamily: "Arial, Helvetica, sans-serif", fontWeight: "bolder" }}>{input.name} </span><span>{input.email} | (+91){input.number}</span>
+            </div>
                 <div className="resumeSkills" ><span style={{ fontSize: "x-large", color: "royalblue", fontWeight: "bold", marginTop: "80px", marginBottom: "20px" }}>Skills:</span>
-                    <span style={{ color: "black", fontSize: "large", fontWeight: "bold", marginBottom: "10px" }}>1. {input.skill1}</span><span style={{ fontSize: "medium", color: "black", marginBottom: "30px" }}>{input.skill3}</span><span className="skillsHeading">2. {input.skill2}</span><span className="skillsContent">{input.skill4}</span><span className="skillsHeading">3. {input.skill5}</span><span className="skillsContent">{input.skill6}</span></div>
+                    <span style={{ color: "black", fontSize: "large", fontWeight: "bold", marginBottom: "10px" }}>1. {input.skill1}</span><span style={{ fontSize: "medium", color: "black", marginBottom: "30px" }}>{input.skill3}</span><span className="skillsHeading">2. {input.skill2}</span><span className="skillsContent">{input.skill4}</span><span className="skillsHeading">3. {input.skill5}</span><span className="skillsContent">{input.skill6}</span>
+                    </div>
                 <div className="resumeSkills"><span className="resumeBulletin">Education:</span><span className="skillsHeading">1. {input.education1}</span>
                     <span className="skillsContent">{input.education2}</span>
                     <span className="skillsHeading">2. {input.education3}</span>
-                    <span className="skillsContent">{input.education4}</span></div>
+                    <span className="skillsContent">{input.education4}</span>
+                    </div>
                 <div className="resumeSkills"><span className="resumeBulletin">Experience:</span>
                     <span className="skillsHeading">1. {input.experience1}</span><span className="skillsContent">{input.experience2}</span>
                     <span className="skillsHeading">2. {input.experience3}</span><span className="skillsContent">{input.experience4}</span>
                     <span className="skillsHeading">3. {input.experience5}</span>
-                    <span className="skillsContent">{input.experience6}</span>
+                    <span className="skillsContent">{input.experience6}</span></div>
                     <div className="resumeSkills"><span className="resumeBulletin">Qualities:</span>
                         <span className="skillsContent">{input.qualities}</span>
                     </div>
-                </div></div>
+                </div>
                 <Button variant="contained" onClick={downloadPDF}>Download</Button></div> : null}
         </div>
     )
