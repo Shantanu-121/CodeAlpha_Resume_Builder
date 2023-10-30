@@ -108,7 +108,7 @@ function Form() {
                     <span className="skillsHeading">2. {input.experience3}</span><span className="skillsContent">{input.experience4}</span>
                     <span className="skillsHeading">3. {input.experience5}</span>
                     <span className="skillsContent">{input.experience6}</span>
-                    <div className="resumeSkills"><span className="resumeBulletin"></span>
+                    <div className="resumeSkills"><span className="resumeBulletin">Qualities:</span>
                         <span className="skillsContent">{input.qualities}</span>
                     </div>
                 </div></div>
