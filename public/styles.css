@@ -135,6 +135,13 @@ label {
     grid-row-end: 4;
 }
 
+.readyResumeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .resumeHeading {
     display: flex;
     width: 100%;

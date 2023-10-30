@@ -96,7 +96,7 @@ function Form() {
                 <input type="text" style={{ gridArea: "13/2/14/3" }} name="qualities" onChange={handleChange} value={input.qualities} placeholder="Other Qualities" />
                 <Button variant="contained" type="submit" onClick={buildResume} style={{ gridArea: "14/2/15/3", marginTop: "40px" }}>Submit</Button>
             </form>
-            {isSubmitted === true ? <div style={{ width: "100%", display: "flex", alignItems: "center", justifyContent: "center" }}>
+            {isSubmitted === true ? <div className="readyResumeContainer">
                 <div ref={pdfRef} className="readyResume">
                     <div className="resumeHeading">
                         <img alt="image" src={URL.createObjectURL(input.selectedImage)} id="userPhoto" /><span style={{ color: "royalblue", fontSize: "x-large", fontFamily: "Arial, Helvetica, sans-serif", fontWeight: "bolder" }}>{input.name} </span><span>{input.email} | (+91){input.number}</span>
