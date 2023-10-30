@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/CodeAlpha_Resume_Builder/static/js/main.12f28833.js",
+    "main.js": "/CodeAlpha_Resume_Builder/static/js/main.be13d450.js",
     "static/js/703.6456485d.chunk.js": "/CodeAlpha_Resume_Builder/static/js/703.6456485d.chunk.js",
     "static/js/210.aae82806.chunk.js": "/CodeAlpha_Resume_Builder/static/js/210.aae82806.chunk.js",
     "index.html": "/CodeAlpha_Resume_Builder/index.html",
-    "main.12f28833.js.map": "/CodeAlpha_Resume_Builder/static/js/main.12f28833.js.map",
+    "main.be13d450.js.map": "/CodeAlpha_Resume_Builder/static/js/main.be13d450.js.map",
     "703.6456485d.chunk.js.map": "/CodeAlpha_Resume_Builder/static/js/703.6456485d.chunk.js.map",
     "210.aae82806.chunk.js.map": "/CodeAlpha_Resume_Builder/static/js/210.aae82806.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.12f28833.js"
+    "static/js/main.be13d450.js"
   ]
 }
