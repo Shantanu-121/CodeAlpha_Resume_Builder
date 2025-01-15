@@ -12,7 +12,7 @@ function AboutUs() {
         <Card sx={{ maxWidth: 345 }}>
             <CardMedia
                 sx={{ height: 300 }}
-                image="https://media.licdn.com/dms/image/D4D03AQEnv8HfVAow0Q/profile-displayphoto-shrink_200_200/0/1696057573783?e=1704326400&v=beta&t=XXyklrkLADNwDN2Q6BSeZ26UyrUK9NT4kKfI45yd9RA"
+                image="https://media.licdn.com/dms/image/v2/D5603AQFRQzbFeMOYAA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1730829070158?e=1742428800&v=beta&t=p4I7q70ePA0YfpLhQRIX8sZRYEDoyYUYHRAO0DyuCRg"
                 title="User"
             />
             <CardContent>
