@@ -1,4 +1,4 @@
-#THIS APP IS HOSTED USING GIT PAGES:
+# THIS APP IS HOSTED USING GIT PAGES:
 https://shantanu-121.github.io/CodeAlpha_Resume_Builder/
 
 # Getting Started with Create React App
