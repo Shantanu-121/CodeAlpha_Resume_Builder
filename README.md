@@ -1,3 +1,6 @@
+#THIS APP IS HOSTED USING GIT PAGES:
+https://shantanu-121.github.io/CodeAlpha_Resume_Builder/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
